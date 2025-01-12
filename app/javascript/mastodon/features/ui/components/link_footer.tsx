@@ -15,7 +15,7 @@ const DividingCircle: React.FC = () => <span aria-hidden>{' · '}</span>;
 
 export const LinkFooter: React.FC<{
   multiColumn: boolean;
-}> = ({ multiColumn }) => {
+}> = ({ multiColumn }: any) => {
   return (
     <div className='link-footer'>
 
